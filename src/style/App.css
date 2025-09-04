@@ -8,8 +8,8 @@
 
 /* img 태그의 이미지 크기를 특정 픽셀로 지정*/
 img{
-    width : 150 px;
-    height : 150 px;
+    width : 150px;
+    height : 150px;
     object-fit: cover ; /* 이미저 비율 유지하면서 잘림 발생 기능*/
     margin: 10px auto 10px auto; /*위 오른쪽 아래 왼쪽 (위부터 시계방향으로)*/
 } 

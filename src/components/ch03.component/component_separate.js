@@ -1,15 +1,15 @@
-function Top(){
-    return(
-            <header>
+function Top() {
+    return (
+        <header>
             <h1>인사말</h1>
             여러분..안녕하세요~~
-            </header>
+        </header>
     );
 }
 
-function Content(){
-    return(
-           <nav>
+function Content() {
+    return (
+        <nav>
             <ul>
                 <li><a href="http://www.naver.com">네이버</a></li>
                 <li><a href="http://www.daum.net">다음</a></li>
@@ -19,8 +19,8 @@ function Content(){
     );
 }
 
-function Bottom(){
-    return(
+function Bottom() {
+    return (
         <article>
             <h2>맺음말</h2>
             여러분 부자 되시고, 언제나 행복하세요.
@@ -39,11 +39,11 @@ JSX 문법 규칙
 속성 작성은 숫자 형식이라고 하더라도 반드시 이름="값"의 형식으로 작성합니다.
 하위 앱으로 넘기는 props 역시 이름="값"의 형식으로 작성합니다.
 */
-function App(){
+function App() {
     console.log('컴포넌트별 분리하기');
 
-    return(
-        <div age='20'>
+    return (
+        <div name='김철수'>
             <Top money="100" />
             <Content />
             <Bottom />
@@ -51,4 +51,4 @@ function App(){
     );
 }
 
-export default App ;
+export default App;
