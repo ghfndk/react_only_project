@@ -35,10 +35,10 @@ function App() {
                     <td>{getComment(coffee.price)}</td>
                     <td>{coffee.description}</td>
                 </tr>
-                ))};
+                ))}
             </tbody>
         </table>
-    )
+    );
     return (
         <div>
             {CoffeeTable}

@@ -21,6 +21,13 @@ import AppComponentSeparate from './../components/ch03.component/component_separ
 import AppUseProps from './../components/ch03.component/use_props.js';
 import AppFileSeparator from './../components/ch03.component/file_separator.js';
 import AppMakeTable01 from './../components/ch03.component/array_and_table_01.js';
+import AppMakeTable02 from './../components/ch03.component/array_and_table_02.js';
+
+// ch04장
+import AppClickEvnent from './../components/ch04.event_handling/click_event.js';
+import AppChangeEvent from './../components/ch04.event_handling/change_event.js';
+import AppMouseEvent from './../components/ch04.event_handling/mouse_event.js';
+import AppKeyEvent from './../components/ch04.event_handling/key_event.js';
 
 function AppRoutes() {
     return (
@@ -41,6 +48,12 @@ function AppRoutes() {
             <Route path='/use_props' element={<AppUseProps />} />
             <Route path='/file_separator' element={<AppFileSeparator />} />
             <Route path='/array_and_table_01' element={<AppMakeTable01 />} />
+            <Route path='/array_and_table_02' element={<AppMakeTable02 />} />
+            
+            <Route path='/click_event' element={<AppClickEvnent />} />
+            <Route path='/change_event' element={<AppChangeEvent />} />
+            <Route path='/mouse_event' element={<AppMouseEvent />} />
+            <Route path='/key_event' element={<AppKeyEvent />} />
         </Routes>
 
     );
