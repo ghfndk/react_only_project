@@ -28,6 +28,13 @@ import AppClickEvnent from './../components/ch04.event_handling/click_event.js';
 import AppChangeEvent from './../components/ch04.event_handling/change_event.js';
 import AppMouseEvent from './../components/ch04.event_handling/mouse_event.js';
 import AppKeyEvent from './../components/ch04.event_handling/key_event.js';
+import AppComboChanget from './../components/ch04.event_handling/combo_change.js';
+import AppSubmitEvent from './../components/ch04.event_handling/submit_event.js';
+
+// ch05장
+import AppUseState01 from './../components/ch05.hooks/use_state_01.js';
+import AppUseState02 from './../components/ch05.hooks/use_state_02.js';
+import AppUseState03 from './../components/ch05.hooks/use_state_03.js';
 
 function AppRoutes() {
     return (
@@ -54,6 +61,12 @@ function AppRoutes() {
             <Route path='/change_event' element={<AppChangeEvent />} />
             <Route path='/mouse_event' element={<AppMouseEvent />} />
             <Route path='/key_event' element={<AppKeyEvent />} />
+            <Route path='/combo_change' element={<AppComboChanget />} />
+            <Route path='/submit_event' element={<AppSubmitEvent />} />
+            
+            <Route path='/use_state_01' element={<AppUseState01 />} />
+            <Route path='/use_state_02' element={<AppUseState02 />} />
+            <Route path='/use_state_03' element={<AppUseState03 />} />
         </Routes>
 
     );
