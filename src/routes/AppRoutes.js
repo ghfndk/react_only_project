@@ -35,6 +35,8 @@ import AppSubmitEvent from './../components/ch04.event_handling/submit_event.js'
 import AppUseState01 from './../components/ch05.hooks/use_state_01.js';
 import AppUseState02 from './../components/ch05.hooks/use_state_02.js';
 import AppUseState03 from './../components/ch05.hooks/use_state_03.js';
+import AppUseState04 from './../components/ch05.hooks/use_state_04.js';
+import AppUseEffect01 from './../components/ch05.hooks/use_effect_01.js';
 
 function AppRoutes() {
     return (
@@ -67,6 +69,8 @@ function AppRoutes() {
             <Route path='/use_state_01' element={<AppUseState01 />} />
             <Route path='/use_state_02' element={<AppUseState02 />} />
             <Route path='/use_state_03' element={<AppUseState03 />} />
+            <Route path='/use_state_04' element={<AppUseState04 />} />
+            <Route path='/use_effect_01' element={<AppUseEffect01 />} />
         </Routes>
 
     );
