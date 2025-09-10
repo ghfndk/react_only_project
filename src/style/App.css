@@ -1,15 +1,17 @@
 /* BoxModel 공부해야합니다. */
 /* className 속성이 App인 요소에 대하여 글자를 좌측 정령하고, 마진을 10 픽셀로 지정합니다. 아래쪽 마진은 20픽셀로 지정합니다.*/
-.App{
-    text-align-last: left;
+.App {
+    text-align: left;
     margin: 10px;
     margin-bottom: 20px;
 }
 
 /* img 태그의 이미지 크기를 특정 픽셀로 지정*/
-img1{
-    width : 150px;
-    height : 150px;
-    object-fit: cover ; /* 이미저 비율 유지하면서 잘림 발생 기능*/
-    margin: 10px auto 10px auto; /*위 오른쪽 아래 왼쪽 (위부터 시계방향으로)*/
-} 
+img1 {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    /* 이미저 비율 유지하면서 잘림 발생 기능*/
+    margin: 10px auto 10px auto;
+    /*위 오른쪽 아래 왼쪽 (위부터 시계방향으로)*/
+}

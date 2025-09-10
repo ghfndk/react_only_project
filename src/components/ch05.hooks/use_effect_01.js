@@ -23,14 +23,19 @@ function App() {
         setCount((count) => count + 1);
 
         // 배열 요소중 임의의 1개를 추출하여 이미지를 보여줍니다.
-        const randomIdx = Math.floor(imageArray.length * Math.random()) ;
+        const randomIdx = Math.floor(imageArray.length * Math.random());
         const randomImage = imageArray[randomIdx];
         setImage(`${imagePath}/${randomImage}`)
     }
 
     const MyTimer = () => {
         // setTimeout(동작, 인터벌) ;
-        setTimeout(SomeActionm, interval);
+        const timerId = setTimeout(SomeActionm, interval);
+
+        setTimeout(() => {
+            clearTimeout(timerId);
+            console.log(`타이머 종료(5초 경과)`);
+        }, 5000);
     }
 
     useEffect(MyTimer);

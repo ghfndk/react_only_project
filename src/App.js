@@ -1,12 +1,14 @@
 // 특정 페이지로 이동을 하기 위한 링크
 import { Link } from "react-router-dom";
 
+
 // 개발자가 작성한 외부 모듈의 일부를 임포트 합니다.
 import AppRoutes from "./routes/AppRoutes";
 import { menuData } from "./routes/menuData";
 
 // 이 문서의 스타일은 App.css가 담당입니다.
 import './style/App.css';
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 function App() {
     return (

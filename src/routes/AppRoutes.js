@@ -37,6 +37,12 @@ import AppUseState02 from './../components/ch05.hooks/use_state_02.js';
 import AppUseState03 from './../components/ch05.hooks/use_state_03.js';
 import AppUseState04 from './../components/ch05.hooks/use_state_04.js';
 import AppUseEffect01 from './../components/ch05.hooks/use_effect_01.js';
+import AppUseEffect02 from './../components/ch05.hooks/use_effect_02.js';
+import AppUseEffect03 from './../components/ch05.hooks/use_effect_03.js';
+
+// ch06장
+import AppCafe01 from './../components/ch06.bootstrap/coffee_bread_01/main.js';
+import AppCafe02 from './../components/ch06.bootstrap/coffee_bread_02/main.js';
 
 function AppRoutes() {
     return (
@@ -71,6 +77,12 @@ function AppRoutes() {
             <Route path='/use_state_03' element={<AppUseState03 />} />
             <Route path='/use_state_04' element={<AppUseState04 />} />
             <Route path='/use_effect_01' element={<AppUseEffect01 />} />
+            <Route path='/use_effect_02' element={<AppUseEffect02 />} />
+            <Route path='/use_effect_03' element={<AppUseEffect03 />} />
+           
+            <Route path='/coffee_bread_01' element={<AppCafe01 />} />
+            <Route path='/coffee_bread_02' element={<AppCafe02 />} />
+            
         </Routes>
 
     );
