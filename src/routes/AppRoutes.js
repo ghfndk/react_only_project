@@ -46,6 +46,8 @@ import AppCafe02 from './../components/ch06.bootstrap/coffee_bread_02/main.js';
 import AppCafe03 from './../components/ch06.bootstrap/coffee_bread_03/main.js';
 import AppCafe04 from './../components/ch06.bootstrap/coffee_bread_04/main.js';
 import AppCafe05 from './../components/ch06.bootstrap/coffee_bread_05/main.js';
+import AppCafe06 from './../components/ch06.bootstrap/coffee_bread_06/main.js';
+import AppCafe07 from './../components/ch06.bootstrap/coffee_bread_07/main.js';
 
 function AppRoutes() {
     return (
@@ -88,6 +90,8 @@ function AppRoutes() {
             <Route path='/coffee_bread_03' element={<AppCafe03 />} />
             <Route path='/coffee_bread_04' element={<AppCafe04 />} />
             <Route path='/coffee_bread_05' element={<AppCafe05 />} />
+            <Route path='/coffee_bread_06' element={<AppCafe06 />} />
+            <Route path='/coffee_bread_07' element={<AppCafe07 />} />
             
         </Routes>
 

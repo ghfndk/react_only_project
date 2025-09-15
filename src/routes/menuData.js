@@ -51,15 +51,17 @@ export const menuData = [
             { path: '/use_effect_03', label: '유저 이펙트 03' },
         ]
     },
-    
+
     {
         chapter: "ch06. IT Cafe",
-        items:[
+        items: [
             { path: '/coffee_bread_01', label: 'IT Cafe 01' },
             { path: '/coffee_bread_02', label: 'IT Cafe 02' },
             { path: '/coffee_bread_03', label: 'IT Cafe 03' },
             { path: '/coffee_bread_04', label: 'IT Cafe 04' },
             { path: '/coffee_bread_05', label: 'IT Cafe 05' },
+            { path: '/coffee_bread_06', label: 'IT Cafe 06' },
+            { path: '/coffee_bread_07', label: 'IT Cafe 07' },
         ]
     },
     // 여기에 4장, 5장... 내용을 계속 추가하면 됩니다.
