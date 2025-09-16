@@ -3,6 +3,16 @@
 // npm install react-router-dom 엔터
 import { Routes, Route } from 'react-router-dom';
 
+// ch01 장
+import AppMakeArray01 from './../components/ch01.react_basic/make_array_01';
+import AppMathObject01 from './../components/ch01.react_basic/math_object_01';
+import AppIfExercise from './../components/ch01.react_basic/if_exercise';
+import AppSwitchExercise from './../components/ch01.react_basic/switch_exercise';
+import AppTypeOfNumber from './../components/ch01.react_basic/typeof_number';
+import AppFormExam from './../components/ch01.react_basic/form_exam.js';
+import AppListExam from './../components/ch01.react_basic/list_exam.js';
+import AppTableExam from './../components/ch01.react_basic/table_exam.js';
+
 // ch02장
 // 기호 .는 현재 폴더, .. 는 상위 폴더, /는 폴더 구분자
 // import 앱이름 from '전체 경로/파일명'
@@ -53,6 +63,17 @@ function AppRoutes() {
     return (
         <Routes>
             {/* element 속성에는 컴포넌트 자체가 아니라 JSX 요소를 넣어야 합니다. */}
+            {/* 제01장 */}
+            <Route path='/make_array_01' element={<AppMakeArray01 />} />
+            <Route path='/math_object_01' element={<AppMathObject01 />} />
+            <Route path='/if_exercise' element={<AppIfExercise />} />
+            <Route path='/switch_exercise' element={<AppSwitchExercise />} />
+            <Route path='/typeof_number' element={<AppTypeOfNumber />} />
+            <Route path='/form_exam' element={<AppFormExam />} />
+            <Route path='/list_exam' element={<AppListExam />} />
+            <Route path='/table_exam' element={<AppTableExam />} />
+
+            {/* 제02장 */}
             <Route path='/' element={<AppLetConst />} />
             <Route path='/let_const' element={<AppLetConst />} />
             <Route path='/template_string' element={<AppTemplateString />} />
@@ -62,6 +83,7 @@ function AppRoutes() {
             <Route path='/array_map' element={<AppArray_Map />} />
             <Route path='/spread_operator' element={<AppSpread_Operator />} />
 
+            {/* 제03장 */}
             <Route path='/components01' element={<AppClassComponent />} />
             <Route path='/components02' element={<AppFunctionComponent />} />
             <Route path='/component_separate' element={<AppComponentSeparate />} />
@@ -69,14 +91,16 @@ function AppRoutes() {
             <Route path='/file_separator' element={<AppFileSeparator />} />
             <Route path='/array_and_table_01' element={<AppMakeTable01 />} />
             <Route path='/array_and_table_02' element={<AppMakeTable02 />} />
-            
+
+            {/* 제04장 */}
             <Route path='/click_event' element={<AppClickEvnent />} />
             <Route path='/change_event' element={<AppChangeEvent />} />
             <Route path='/mouse_event' element={<AppMouseEvent />} />
             <Route path='/key_event' element={<AppKeyEvent />} />
             <Route path='/combo_change' element={<AppComboChanget />} />
             <Route path='/submit_event' element={<AppSubmitEvent />} />
-            
+
+            {/* 제05장 */}
             <Route path='/use_state_01' element={<AppUseState01 />} />
             <Route path='/use_state_02' element={<AppUseState02 />} />
             <Route path='/use_state_03' element={<AppUseState03 />} />
@@ -84,7 +108,8 @@ function AppRoutes() {
             <Route path='/use_effect_01' element={<AppUseEffect01 />} />
             <Route path='/use_effect_02' element={<AppUseEffect02 />} />
             <Route path='/use_effect_03' element={<AppUseEffect03 />} />
-           
+
+            {/* 제06장 */}
             <Route path='/coffee_bread_01' element={<AppCafe01 />} />
             <Route path='/coffee_bread_02' element={<AppCafe02 />} />
             <Route path='/coffee_bread_03' element={<AppCafe03 />} />
@@ -92,7 +117,7 @@ function AppRoutes() {
             <Route path='/coffee_bread_05' element={<AppCafe05 />} />
             <Route path='/coffee_bread_06' element={<AppCafe06 />} />
             <Route path='/coffee_bread_07' element={<AppCafe07 />} />
-            
+
         </Routes>
 
     );
